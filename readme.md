@@ -1,6 +1,8 @@
+
+### 学习Git详细资料和交互界面link :https://woyeyao.github.io/Git-Interactive-Tutorial/
 # AI Research Project
 
-面向人工智能方向的科研论文写作项目，涵盖从数据处理、实验记录、模型训练到论文文档撰写的完整工作流。
+个人科研论文写作项目，涵盖从数据处理、实验记录、模型训练到论文文档撰写的完整工作流。
 
 ## 目录结构
 
