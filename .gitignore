@@ -1,0 +1,153 @@
+# ============================================================
+# Python 环境
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Conda
+*.conda
+.conda/
+.conda-env/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 依赖锁文件（可选保留 requirements.txt）
+# requirements.txt
+
+# 可分发文件
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+wheels/
+
+# ============================================================
+# IDE & 编辑器
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ============================================================
+# 环境变量 & 密钥
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# ============================================================
+# 数据文件（通常不提交大体积数据）
+# ============================================================
+# 原始数据
+data/raw/*
+!data/raw/.gitkeep
+
+# 预处理后的数据
+data/processed/*
+!data/processed/.gitkeep
+
+# 大数据集格式
+*.csv
+!data/sample_*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.mat
+
+# ============================================================
+# 模型权重 & 检查点（通常不提交大文件）
+# ============================================================
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.onnx
+*.tflite
+*.pb
+checkpoints/
+models/
+weights/
+experiments/checkpoints/*
+!experiments/checkpoints/.gitkeep
+
+# ============================================================
+# 实验结果
+# ============================================================
+results/logs/*
+!results/logs/.gitkeep
+results/figures/*
+!results/figures/.gitkeep
+results/predictions/*
+!results/predictions/.gitkeep
+
+# ============================================================
+# 日志 & 临时文件
+# ============================================================
+logs/
+*.log
+*.out
+*.err
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# ============================================================
+# 机器学习框架特定
+# ============================================================
+# PyTorch
+d2l/
+
+# TensorBoard
+events.out.tfevents.*
+
+# MLflow
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# Hugging Face
+.huggingface/
+.hf/
+
+# ============================================================
+# 系统文件
+# ============================================================
+*.pid
+*.seed
